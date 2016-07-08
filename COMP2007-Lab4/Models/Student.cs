@@ -18,13 +18,16 @@ namespace COMP2007_Lab4.Models
 
         [Required]
         [StringLength(50)]
+        [Display(Name ="Last Name")]
         public string LastName { get; set; }
 
         [Required]
         [StringLength(50)]
+        [Display(Name = "First Name")]
         public string FirstMidName { get; set; }
 
         [Column(TypeName = "date")]
+        [Display(Name = "Enrollment Date")]
         public DateTime EnrollmentDate { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
