@@ -20,9 +20,13 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li><a href="@Url.Action("Index", "Home")"><i class="fa fa-home fa-lg"> Home</i></a></li>
+                    <li><a href="@Url.Action("Index", "Students")"><i class="fa fa-users fa-lg"> Students</i></a></li>
+                    <li><a href="@Url.Action("Index", "Courses")"><i class="fa fa-leanpub fa-lg"> Courses</i></a></li>
+                    <li><a href="@Url.Action("Index", "Departments")"><i class="fa fa-th fa-lg"> Departments</i></a></li>
+                    <li><a href="@Url.Action("Index", "enrollments")"><i class="fa fa-graduation-cap fa-lg"> Enrollments</i></a></li>
+                    <li><a href="@Url.Action("About", "Home")"><i class="fa fa-info fa-lg"> About</i></a></li>
+                    <li><a href="@Url.Action("Contact", "Home")"><i class="fa fa-phone fa-lg"> Contact</i></a></li>
                 </ul>
             </div>
         </div>
