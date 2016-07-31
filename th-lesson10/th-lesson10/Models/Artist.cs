@@ -5,6 +5,7 @@ using System.Web;
 
 namespace th_lesson10.Models
 {
+    //Artist 
     public class Artist
     {
         public int ArtistId { get; set; }
