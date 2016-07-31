@@ -24,10 +24,10 @@ namespace th_lesson10.Models
             this.Name = Name;
         }
 
-        public int GenreID { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public List<Album> Albums { get; set; }
+        public virtual int GenreID { get; set; }
+        public virtual string Name { get; set; }
+        public virtual string Description { get; set; }
+        public virtual List<Album> Albums { get; set; }
 
     }
 }
