@@ -7,12 +7,36 @@
 
 <h2>Browsing Genre: @Model.Name</h2>
 
-<ul>
+<table>
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Genre
+        </th>
+        <th>
+            Price
+        </th>
+        <th>
+            Details
+        </th>
+    </tr>
     @foreach (Album album in Model.Albums)
     {
-        <li>
+    <tr>
+        <td>
             @album.Title
-        </li>
+        </td>
+        <td>
+            @album.Genre.Name
+        </td>
+        <td>
+            @album.Price
+        </td>
+        <td>
+            @album.Price
+        </td>
+    </tr>
     }
-</ul>
-
+</table>
