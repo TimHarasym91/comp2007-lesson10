@@ -18,11 +18,13 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="@Url.Action("Index","Home")" class="navbar-brand"><img id="brand" alt="Brand" src="~/Assets/images/logo.png" /> MVC Music Store</a>
+
             </div>
             <div class="navbar-collapse collapse">
                 @Html.Partial("_LoginPartial")
                 <ul class="nav navbar-nav navbar-right">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Store", "Index", "Store")</li>
                 </ul>
                 
             </div>
