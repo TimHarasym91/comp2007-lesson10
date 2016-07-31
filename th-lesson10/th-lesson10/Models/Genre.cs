@@ -26,5 +26,8 @@ namespace th_lesson10.Models
 
         public int GenreID { get; set; }
         public string Name { get; set; }
+        public string Description { get; set; }
+        public List<Album> Albums { get; set; }
+
     }
 }
