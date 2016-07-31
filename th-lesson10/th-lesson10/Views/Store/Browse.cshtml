@@ -7,3 +7,12 @@
 
 <h2>Browsing Genre: @Model.Name</h2>
 
+<ul>
+    @foreach (Album album in Model.Albums)
+    {
+        <li>
+            @album.Title
+        </li>
+    }
+</ul>
+
