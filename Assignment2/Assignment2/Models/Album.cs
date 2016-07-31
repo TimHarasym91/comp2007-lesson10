@@ -8,6 +8,7 @@ namespace Assignment2.Models
     public class Album
     {
         /// <summary>
+        /// //TEST
         /// This is the empty constructor
         /// </summary>
         public Album()
