@@ -35,7 +35,9 @@
             @album.Price
         </td>
         <td>
-            @album.Price
+            <a href="@Url.Action("Details", new { id=album.AlbumID } )" class="btn btn-default" title="Info">
+                <i class="fa fa-info"></i>
+            </a> 
         </td>
     </tr>
     }

@@ -1,0 +1,18 @@
+﻿@using Assignment2.Models
+@model Album
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Album: @Model.Title</h2>
+<hr />
+<ul>
+    <li>Genre: @Model.Genre.Name </li>
+    <li>Artist: @Model.Artist.Name </li>
+    <li>Price: @Model.Price </li>
+    <li>Description: </li>
+    <li>Album Art: 
+        <img src="@Model.AlbumArtUrl" alt="@Model.Title" />
+    </li>
+</ul>

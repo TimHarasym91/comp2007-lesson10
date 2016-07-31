@@ -16,9 +16,10 @@ namespace th_lesson10.Models
         }
 
         /// <summary>
-        /// This constructor takes one parameter - Title
+        /// This constructor takes two parameters - Title, Description
         /// </summary>
         /// <param name="Title"></param>
+        /// <param name="Description"></param>
         public Album(string Title)
         {
             this.Title = Title;
@@ -26,8 +27,8 @@ namespace th_lesson10.Models
 
         public virtual int AlbumID { get; set; }
         public virtual int GenreId { get; set; }
-        public virtual int ArtistId { get; set; }         
-        public virtual string Title { get; set; }      
+        public virtual int ArtistId { get; set; }
+        public virtual string Title { get; set; }
         public virtual decimal Price { get; set; }
         public virtual string AlbumArtUrl { get; set; }
         public virtual Genre Genre { get; set; }

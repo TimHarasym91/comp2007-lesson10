@@ -7,8 +7,6 @@ using th_lesson10.Models;
 
 namespace th_lesson10.Controllers
 {
-
-    
     public class StoreController : Controller
     {
         MusicStoreContext storeDB = new MusicStoreContext();
